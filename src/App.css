@@ -1,6 +1,10 @@
-.App {
+.app {
   display: flex;
   height: 100vh;
   align-items: center;
   justify-content: center;
+}
+.app .app__title {
+  font-size: 26px;
+  color: rgb(79, 217, 230);
 }
