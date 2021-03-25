@@ -1,7 +1,7 @@
 import initialState from '../initialState.js';
 
 const authReducer = (state=initialState,action)=>{
-    switch(action){
+    switch(action.type){
         case "SET_LOGIN":
             return {
                 ...state,
