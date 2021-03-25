@@ -16,3 +16,11 @@
   width: 100%;
   justify-content: space-around;
 }
+@media (max-width: 480px) {
+  .app .app__info-windows {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 80%;
+  }
+}

@@ -22,3 +22,10 @@
 .result .result__password {
   font-size: 15px;
 }
+@media (max-width: 480px) {
+  .result .result__login-title,
+  .result .result__password-title {
+    font-size: 15px;
+    text-align: center;
+  }
+}
