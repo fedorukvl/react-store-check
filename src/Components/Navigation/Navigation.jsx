@@ -1,4 +1,5 @@
 import React from "react";
+import "../../media/css/Navigation.css";
 
 function Navigation() {
   return (

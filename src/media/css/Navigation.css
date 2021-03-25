@@ -1,0 +1,25 @@
+.navigation {
+  width: 100vw;
+}
+.navigation .navigation__links {
+  list-style-type: none;
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.navigation .navigation__links .navigation__link {
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border: 3px solid rgba(228, 99, 240, 0.842);
+  border-radius: 4px;
+}
+@media (max-width: 480px) {
+  .navigation .navigation__links .navigation__link {
+    font-size: 14px;
+    padding: 6px;
+    border: 2px solid rgba(228, 99, 240, 0.842);
+  }
+}
