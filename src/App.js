@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AuthForm from './Components/Auth/Auth-form';
 
 
 function App() {
@@ -8,6 +9,11 @@ function App() {
       <header>
         <h1 className="app__title">Whats in store</h1>
       </header>
+      <main className="app__info-windows">
+        <section>
+          <AuthForm/>
+        </section>
+      </main>
     </div>
   );
 }
