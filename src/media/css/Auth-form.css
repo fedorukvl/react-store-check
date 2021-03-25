@@ -1,0 +1,24 @@
+.auth {
+  padding: 20px;
+  height: 20vh;
+  border: 2px solid rgb(51, 172, 241);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.auth .auth__login-info,
+.auth .auth__password-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.auth .auth__login-info .auth__login-label,
+.auth .auth__password-info .auth__password-label {
+  font-size: 22px;
+}
+.auth .auth__login-info .auth__login,
+.auth .auth__password-info .auth__password {
+  padding: 5px;
+  font-size: 15px;
+}

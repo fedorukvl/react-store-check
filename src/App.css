@@ -9,3 +9,6 @@
   font-size: 26px;
   color: rgb(79, 217, 230);
 }
+.app .app__info-windows {
+  display: flex;
+}
