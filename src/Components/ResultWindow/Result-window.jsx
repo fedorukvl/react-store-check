@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import "../../media/css/ResultWindow.css";
 
 function ResultWindow() {
   const { login, password } = useSelector((state) => state);
