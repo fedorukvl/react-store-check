@@ -1,24 +1,16 @@
 import React from 'react';
+import { Route, Switch } from 'react-router';
 import './App.css';
-import AuthForm from './Components/Auth/Auth-form';
 import Navigation from './Components/Navigation/Navigation';
-import ResultWindow from './Components/ResultWindow/Result-window';
+import StoreInfo from './Components/StoreInfo/StoreInfo';
 
 function App() {
   return (
     <div className="app">
       <nav><Navigation/></nav>
-      <header>
-        <h1 className="app__title">Whats in store</h1>
-      </header>
-      <main className="app__info-windows">
-      <section>
-          <ResultWindow/>
-        </section>
-        <section>
-          <AuthForm/>
-        </section>
-      </main>
+      <Switch>
+        <Route path="/store" component={StoreInfo}/>
+      </Switch>
     </div>
   );
 }
