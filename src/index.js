@@ -5,12 +5,17 @@ import App from './App';
 import {Provider} from 'react-redux';
 import reportWebVitals from './reportWebVitals';
 import store from './store/store';
+import {BrowserRouter,Switch,Route} from 'react-router-dom';
 
 ReactDOM.render(
   <Provider store={store}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <BrowserRouter>
+      <React.StrictMode>
+        <Switch>
+          <Route exact path="/" component={App}/>
+        </Switch>
+      </React.StrictMode>
+    </BrowserRouter>
   </Provider>,
   document.getElementById('root')
 );
