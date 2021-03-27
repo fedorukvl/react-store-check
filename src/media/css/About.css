@@ -1,0 +1,24 @@
+.about-title {
+  font-size: 30px;
+  margin: 0 auto 20px auto;
+}
+.about {
+  border: 2px solid rgb(210, 66, 247);
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  margin: 0 auto;
+}
+.about .about__description .about__description-info {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 29px;
+  }
+  .about .about__description .about__description-info {
+    font-size: 16px;
+  }
+}

@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import "../../media/css/About.css";
 
 function About() {
   return (
