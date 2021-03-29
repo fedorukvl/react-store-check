@@ -1,6 +1,7 @@
-.router-info__title {
+.route-info__title {
   font-size: 30px;
   margin: 0 auto 20px auto;
+  color: rgb(79, 217, 230);
 }
 .router-info__description {
   border: 2px solid rgb(247, 66, 141);
@@ -11,5 +12,5 @@
   margin: 0 auto;
 }
 .router-info__path-info {
-  font-size: 19px;
+  font-size: 28px;
 }
