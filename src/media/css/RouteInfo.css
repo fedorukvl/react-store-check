@@ -1,0 +1,15 @@
+.router-info__title {
+  font-size: 30px;
+  margin: 0 auto 20px auto;
+}
+.router-info__description {
+  border: 2px solid rgb(247, 66, 141);
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+.router-info__path-info {
+  font-size: 19px;
+}

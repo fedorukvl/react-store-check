@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { useLocation } from "react-router-dom";
+import "../../media/css/RouteInfo.css";
 
 function RouteInfo() {
   const location = useLocation();
