@@ -18,6 +18,9 @@
   color: black;
   border-radius: 4px;
 }
+.navigation .navigation__links .navigation__link_active {
+  background-color: rgb(225, 159, 228);
+}
 @media (max-width: 480px) {
   .navigation .navigation__links .navigation__link {
     font-size: 14px;
