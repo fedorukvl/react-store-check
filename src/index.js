@@ -5,15 +5,15 @@ import App from './App';
 import {Provider} from 'react-redux';
 import reportWebVitals from './reportWebVitals';
 import store from './store/store';
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <Router>
       <React.StrictMode>
           <App/>
       </React.StrictMode>
-    </BrowserRouter>
+    </Router>
   </Provider>,
   document.getElementById('root')
 );

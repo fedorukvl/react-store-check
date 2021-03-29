@@ -11,9 +11,15 @@ function App() {
     <div className="app">
       <nav><Navigation/></nav>
       <Switch>
-        <Route path="/store" component={StoreInfo}/>
-        <Route path="/about" component={About}/>
-        <Route path="/route" component={RouteInfo}/>
+        <Route path="/store">
+          <StoreInfo/>
+        </Route>
+        <Route path="/about">
+          <About/>
+        </Route>
+        <Route path="/route">
+          <RouteInfo/>
+        </Route>
       </Switch>
     </div>
   );
